@@ -10,7 +10,7 @@ from pygame.locals import (
     K_RIGHT,
 
 )
-""" first time building a game so this wont be pretty"""
+""" Sprites for game, first time building a game so this wont be pretty."""
 
 
 def rot_center(image, rect, angle):
@@ -26,10 +26,11 @@ class HydroSprite(pygame.sprite.Sprite):
     """
 
     # -- Methods
-    def __init__(self, cen_rot_x, cen_rot_y):
+    def __init__(self, cen_rot_x, cen_rot_y, screen):
         super().__init__()
 
         #  load and prep image
+        self.screen = screen
         self.image = pygame.image.load(os.path.join('Kite.png'))
         self.rect = self.image.get_rect()
         rx, ry = self.rect .center
@@ -102,6 +103,8 @@ class HydroSprite(pygame.sprite.Sprite):
         self.rect.x = self.rect.x + self.tether_radius*np.sin(self.theta) + self.cen_rot_x
         self.rect.y = self.rect.y + self.tether_radius*np.cos(self.theta) + self.cen_rot_y
 
+    def blitz(self):
+        self.screen.blit(self.image, self.rect)
 
 class Tether(pygame.sprite.Sprite):
     """
@@ -136,6 +139,7 @@ class BackGround:
         self.image = pygame.image.load(os.path.join('Background3.png'))
         self.rect = self.image.get_rect()
         self.rect.x = self.rect.x-10
+
     def blitz(self):
         self.screen.blit(self.image, self.rect)
 
@@ -157,8 +161,6 @@ class GameScore:
         self.avg_power_surface = self.font.render(str(round(self.power_run_avg)) + ' Watts', False, (255, 255, 255))
         self.river_pos = (100+150, 100)
         self.river_surface = self.font.render('River velocity = 1.5 m/s', False, (255, 255, 255))
-
-
 
     def update(self, power):
         self.power_run_avg = (self.power_run_avg * self.power_counter + power) / (self.power_counter + 1)

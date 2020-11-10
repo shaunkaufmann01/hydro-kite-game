@@ -20,7 +20,7 @@ pygame.font.init()  # you have to call this at the start,
 # instantiate sprite
 cen_rot_x = 613
 cen_rot_y = 325
-hydrokite = HydroSprite(cen_rot_x, cen_rot_y)
+hydrokite = HydroSprite(cen_rot_x, cen_rot_y,screen)
 tether = Tether(cen_rot_x, cen_rot_y)
 
 # instantiate game score board

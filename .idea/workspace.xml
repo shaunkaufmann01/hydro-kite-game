@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3137b32a-d0f8-4b26-8839-de50a56f8e3b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Sprites.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Game.py" beforeDir="false" afterPath="$PROJECT_DIR$/Game.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sprites.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sprites.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,13 +157,29 @@
       <option name="presentableId" value="Default" />
       <updated>1604485197440</updated>
     </task>
+    <task id="LOCAL-00001" summary="placed sprites in their own file">
+      <created>1605016679077</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1605016679077</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="placed sprites in their own file" />
+    <option name="LAST_COMMIT_MESSAGE" value="placed sprites in their own file" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1455" y="338" key="#pygame" timestamp="1604608286200">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
     <state x="1455" y="338" key="#pygame/0.0.3440.1400/1515.1440.1280.680@0.0.3440.1400" timestamp="1604608286200" />
+    <state x="2166" y="293" key="CommitChangelistDialog2" timestamp="1605016678434">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="2166" y="293" key="CommitChangelistDialog2/0.0.3440.1400/1515.1440.1280.680@0.0.3440.1400" timestamp="1605016678434" />
     <state width="1437" height="227" key="GridCell.Tab.0.bottom" timestamp="1605016557693">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
