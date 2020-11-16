@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3137b32a-d0f8-4b26-8839-de50a56f8e3b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Game.py" beforeDir="false" afterPath="$PROJECT_DIR$/Game.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sprites.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sprites.py" afterDir="false" />
-    </list>
+    <list default="true" id="3137b32a-d0f8-4b26-8839-de50a56f8e3b" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,7 +28,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
-  <component name="RunManager" selected="Python.Game">
+  <component name="RunManager" selected="Python tests.Unittests in tests.py">
     <configuration name="Game" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="HydroGame" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -53,7 +50,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Game_example" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Modified_lifting_line" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="HydroGame" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -61,32 +58,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ClCd" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Game_example.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="HydroGame" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ClCd/Modified_lifting_line.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -116,7 +92,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="temp_game" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="tests" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="HydroGame" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -124,11 +100,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/temp_game.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/tests.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -137,13 +113,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Unittests in tests.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="HydroGame" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/tests.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests in tests.py" />
+        <item itemvalue="Python.Modified_lifting_line" />
+        <item itemvalue="Python.tests" />
         <item itemvalue="Python.Game" />
         <item itemvalue="Python.fly_a_kite" />
-        <item itemvalue="Python.temp_game" />
-        <item itemvalue="Python.Test" />
-        <item itemvalue="Python.Game_example" />
       </list>
     </recent_temporary>
   </component>
@@ -165,10 +155,20 @@
       <option name="project" value="LOCAL" />
       <updated>1605016679077</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="placed sprites in their own file">
+      <created>1605016804993</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1605016804993</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
     <MESSAGE value="placed sprites in their own file" />
     <option name="LAST_COMMIT_MESSAGE" value="placed sprites in their own file" />
   </component>
@@ -181,33 +181,43 @@
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
     <state x="2166" y="293" key="CommitChangelistDialog2/0.0.3440.1400/1515.1440.1280.680@0.0.3440.1400" timestamp="1605016804423" />
-    <state width="1437" height="227" key="GridCell.Tab.0.bottom" timestamp="1605016827227">
+    <state width="1547" height="385" key="GridCell.Tab.0.bottom" timestamp="1605546337032">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state width="1437" height="227" key="GridCell.Tab.0.bottom/0.0.3440.1400/1515.1440.1280.680@0.0.3440.1400" timestamp="1605016827227" />
-    <state width="1437" height="227" key="GridCell.Tab.0.center" timestamp="1605016827227">
+    <state width="1547" height="385" key="GridCell.Tab.0.bottom/0.0.3440.1400/1515.1440.1280.680@0.0.3440.1400" timestamp="1605546337032" />
+    <state width="1547" height="385" key="GridCell.Tab.0.center" timestamp="1605546337032">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state width="1437" height="227" key="GridCell.Tab.0.center/0.0.3440.1400/1515.1440.1280.680@0.0.3440.1400" timestamp="1605016827227" />
-    <state width="1437" height="227" key="GridCell.Tab.0.left" timestamp="1605016827227">
+    <state width="1547" height="385" key="GridCell.Tab.0.center/0.0.3440.1400/1515.1440.1280.680@0.0.3440.1400" timestamp="1605546337032" />
+    <state width="1547" height="385" key="GridCell.Tab.0.left" timestamp="1605546337032">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state width="1437" height="227" key="GridCell.Tab.0.left/0.0.3440.1400/1515.1440.1280.680@0.0.3440.1400" timestamp="1605016827227" />
-    <state width="1437" height="227" key="GridCell.Tab.0.right" timestamp="1605016827227">
+    <state width="1547" height="385" key="GridCell.Tab.0.left/0.0.3440.1400/1515.1440.1280.680@0.0.3440.1400" timestamp="1605546337032" />
+    <state width="1547" height="385" key="GridCell.Tab.0.right" timestamp="1605546337032">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state width="1437" height="227" key="GridCell.Tab.0.right/0.0.3440.1400/1515.1440.1280.680@0.0.3440.1400" timestamp="1605016827227" />
+    <state width="1547" height="385" key="GridCell.Tab.0.right/0.0.3440.1400/1515.1440.1280.680@0.0.3440.1400" timestamp="1605546337032" />
     <state x="2012" y="341" key="SettingsEditor" timestamp="1605016878376">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
     <state x="2012" y="341" key="SettingsEditor/0.0.3440.1400/1515.1440.1280.680@0.0.3440.1400" timestamp="1605016878376" />
-    <state x="660" y="587" key="com.intellij.ide.util.TipDialog" timestamp="1605016210789">
+    <state x="660" y="587" key="com.intellij.ide.util.TipDialog" timestamp="1605264174328">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state x="660" y="587" key="com.intellij.ide.util.TipDialog/0.0.3440.1400/1515.1440.1280.680@0.0.3440.1400" timestamp="1605016210789" />
+    <state x="660" y="587" key="com.intellij.ide.util.TipDialog/0.0.3440.1400/1515.1440.1280.680@0.0.3440.1400" timestamp="1605264174328" />
     <state x="1660" y="380" width="672" height="678" key="search.everywhere.popup" timestamp="1604657295507">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
     <state x="1660" y="380" width="672" height="678" key="search.everywhere.popup/0.0.3440.1400/1515.1440.1280.680@0.0.3440.1400" timestamp="1604657295507" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../pyAirplane-master/tests/optimize.py</url>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
