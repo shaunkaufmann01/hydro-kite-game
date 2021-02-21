@@ -7,6 +7,5 @@ Hydrosim does the physics (2D quasi steady)
 uses: 
 - lifting line theory (moded with post stall charaturistics)
 - actuator disk theory
-- first order euler explicit time marching (with sub stepping)
-
+- first order euler explicit time marching 
 rest is pygame
